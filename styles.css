@@ -24,6 +24,11 @@ header, form{
     color:white;
 }
 
+.fas{
+    height:30px;
+    color: white;
+}
+
 form input, form button{
     padding: 0.5rem;
     font-size: 1.8rem;
@@ -85,6 +90,10 @@ form button:hover{
     padding: 1rem;
     cursor: pointer;
     font-size: 1rem;
+}
+
+img{
+    height:15px;
 }
 
 .trash-btn:hover{
