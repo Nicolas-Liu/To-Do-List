@@ -158,6 +158,6 @@ img{
 
     @media screen and (max-width: 250px) {
     .todo-input{
-        width: 100px;
+        width: 10px;
     }
 }
