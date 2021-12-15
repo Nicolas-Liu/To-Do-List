@@ -130,10 +130,15 @@ img{
     opacity: 0.7;
 }
 
+@media screen and (max-width:320px){
+    .todo-input{
+        width: 200px;
+    }
+}
 
   @media screen and (max-width: 360px) {
     .todo-input{
-        min-width: 10vh;
+        width: 200px;
     }
     .todo-item >li{
         min-width: 5vh;
@@ -145,3 +150,8 @@ img{
         min-width: 10vh;
     }
   }
+    @media screen and (max-width: 250px) {
+    .todo-input{
+        width: 150px;
+    }
+}
