@@ -6,14 +6,17 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 body{
     background-image: linear-gradient(120deg,rgb(92, 192, 255), rgb(108, 88, 252));
-    height: 100vh;
-    width: 100%;
+    height:100vh;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
+
 h1{
     font-size: 40px;
 }
@@ -134,5 +137,11 @@ img{
     }
     .todo-item >li{
         min-width: 5vh;
+    }
+  }
+
+    @media screen and (max-width: 360px) {
+    .todo{
+        min-width: 10vh;
     }
   }
