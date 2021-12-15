@@ -19,12 +19,12 @@ function addTodo(event){
     todoDiv.appendChild(newTodo);
     //complete button
     const completedButton = document.createElement('button');
-    completedButton.innerHTML = "<img src='checkmark.png'/>" 
+    completedButton.innerHTML = "<i class='fas fa-check'><i>" 
     completedButton.classList.add('complete-btn');
     todoDiv.appendChild(completedButton);
     //trash
     const trashButton = document.createElement('button');
-    trashButton.innerHTML = "<img src='trash.png'/>" 
+    trashButton.innerHTML = "<i class='fas fa-trash'><i>" 
     trashButton.classList.add('trash-btn');
     todoDiv.appendChild(trashButton);
 
