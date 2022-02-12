@@ -7,9 +7,7 @@ todoButton.addEventListener('click', addTodo);
 todoList.addEventListener('click', deleteCheck);
 
 function addTodo(event){
-    //prevent form from submitting
     event.preventDefault();
-    console.log('hello world')
 
     const todoDiv = document.createElement('div');
     todoDiv.classList.add('todo');
@@ -29,7 +27,6 @@ function addTodo(event){
     todoDiv.appendChild(trashButton);
 
     todoList.appendChild(todoDiv); 
-    //clear Todo 
     todoInput.value = "";
 }
 
